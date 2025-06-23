@@ -5,11 +5,3 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm run start
-    envVars:
-      - key: SUPABASE_URL
-        value: https://xxxxx.supabase.co
-      - key: SUPABASE_KEY
-        value: your-supabase-key
-      - key: NODE_ENV
-        value: production
-
